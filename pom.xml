@@ -173,8 +173,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Hibernate <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-entitymanager</artifactId> 
-			<version>${hibernate.version}</version> </dependency> -->
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
 
 		<!-- 连接池 -->
 		<dependency>
