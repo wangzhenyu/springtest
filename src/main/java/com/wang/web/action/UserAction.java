@@ -16,7 +16,7 @@ public class UserAction {
 		User user=new User();
 		user.setName("test");
 		userService.save(user);
-		System.out.println("test1");
+		System.out.println("test12345");
 		return "test";
 	}
 }
