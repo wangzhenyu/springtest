@@ -18,6 +18,7 @@ public class UserAction {
 		User user=new User();
 		user.setName("test");
 		userService.save(user);
+		
 		return "test";
 	}
 }
